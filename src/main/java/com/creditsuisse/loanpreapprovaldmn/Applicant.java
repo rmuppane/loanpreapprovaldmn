@@ -11,6 +11,8 @@ public class Applicant implements java.io.Serializable {
 	private java.lang.Integer housingExpense;
 	private java.lang.Integer monthlyIncome;
 
+	private java.lang.Integer creditScore;
+
 	public Applicant() {
 	}
 
@@ -30,10 +32,19 @@ public class Applicant implements java.io.Serializable {
 		this.monthlyIncome = monthlyIncome;
 	}
 
+	public java.lang.Integer getCreditScore() {
+		return this.creditScore;
+	}
+
+	public void setCreditScore(java.lang.Integer creditScore) {
+		this.creditScore = creditScore;
+	}
+
 	public Applicant(java.lang.Integer housingExpense,
-			java.lang.Integer monthlyIncome) {
+			java.lang.Integer monthlyIncome, java.lang.Integer creditScore) {
 		this.housingExpense = housingExpense;
 		this.monthlyIncome = monthlyIncome;
+		this.creditScore = creditScore;
 	}
 
 }
