@@ -1,11 +1,1 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_515ECC75-150F-4814-9E39-466584FD0221" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_89AFD670-404A-4C21-80B6-E7FA184DC6F3" name="loanpreapprovaldmn" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_515ECC75-150F-4814-9E39-466584FD0221">
-  <dmn:extensionElements/>
-  <dmndi:DMNDI>
-    <dmndi:DMNDiagram>
-      <di:extension>
-        <kie:ComponentsWidthsExtension/>
-      </di:extension>
-    </dmndi:DMNDiagram>
-  </dmndi:DMNDI>
-</dmn:definitions>
+<?xml version="1.0" ?><dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_515ECC75-150F-4814-9E39-466584FD0221" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_89AFD670-404A-4C21-80B6-E7FA184DC6F3" name="loanpreapprovaldmn" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_515ECC75-150F-4814-9E39-466584FD0221"><dmn:extensionElements/><dmn:decision id="_9F45920D-75E3-4B2B-A1E9-7DF363307FBF" name="Decision-1"><dmn:extensionElements/><dmn:variable id="_7706A425-1BDD-4651-A9A7-697651790AE8" name="Decision-1"/></dmn:decision><dmndi:DMNDI><dmndi:DMNDiagram id="_E6FFBD24-5345-48FE-A970-CDADEE652AD1" name="DRG"><di:extension><kie:ComponentsWidthsExtension/></di:extension><dmndi:DMNShape id="dmnshape-drg-_9F45920D-75E3-4B2B-A1E9-7DF363307FBF" dmnElementRef="_9F45920D-75E3-4B2B-A1E9-7DF363307FBF" isCollapsed="false"><dmndi:DMNStyle><dmndi:FillColor red="255" green="255" blue="255"/><dmndi:StrokeColor red="0" green="0" blue="0"/><dmndi:FontColor red="0" green="0" blue="0"/></dmndi:DMNStyle><dc:Bounds x="456" y="90" width="100" height="50"/><dmndi:DMNLabel/></dmndi:DMNShape></dmndi:DMNDiagram></dmndi:DMNDI></dmn:definitions>
