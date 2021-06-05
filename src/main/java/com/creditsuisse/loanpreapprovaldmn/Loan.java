@@ -8,12 +8,14 @@ public class Loan implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "Principal")
+	@org.kie.api.definition.type.Label("Principal")
 	private java.lang.Integer principal;
-	@org.kie.api.definition.type.Label(value = "InterestRate")
+	@org.kie.api.definition.type.Label("InterestRate")
 	private java.lang.Float interestRate;
-	@org.kie.api.definition.type.Label(value = "TermInMonths")
+	@org.kie.api.definition.type.Label("TermInMonths")
 	private java.lang.Integer term;
+
+	private java.lang.Integer downPayment;
 
 	public Loan() {
 	}
@@ -42,11 +44,20 @@ public class Loan implements java.io.Serializable {
 		this.term = term;
 	}
 
+	public java.lang.Integer getDownPayment() {
+		return this.downPayment;
+	}
+
+	public void setDownPayment(java.lang.Integer downPayment) {
+		this.downPayment = downPayment;
+	}
+
 	public Loan(java.lang.Integer principal, java.lang.Float interestRate,
-			java.lang.Integer term) {
+			java.lang.Integer term, java.lang.Integer downPayment) {
 		this.principal = principal;
 		this.interestRate = interestRate;
 		this.term = term;
+		this.downPayment = downPayment;
 	}
 
 }
