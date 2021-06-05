@@ -6,12 +6,34 @@ package com.creditsuisse.loanpreapprovaldmn;
 
 public class Applicant implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Applicant() {
-    }
+	private java.lang.Integer housingExpense;
+	private java.lang.Integer monthlyIncome;
 
+	public Applicant() {
+	}
 
+	public java.lang.Integer getHousingExpense() {
+		return this.housingExpense;
+	}
 
+	public void setHousingExpense(java.lang.Integer housingExpense) {
+		this.housingExpense = housingExpense;
+	}
+
+	public java.lang.Integer getMonthlyIncome() {
+		return this.monthlyIncome;
+	}
+
+	public void setMonthlyIncome(java.lang.Integer monthlyIncome) {
+		this.monthlyIncome = monthlyIncome;
+	}
+
+	public Applicant(java.lang.Integer housingExpense,
+			java.lang.Integer monthlyIncome) {
+		this.housingExpense = housingExpense;
+		this.monthlyIncome = monthlyIncome;
+	}
 
 }
