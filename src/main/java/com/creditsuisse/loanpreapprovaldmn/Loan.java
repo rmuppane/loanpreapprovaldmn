@@ -6,12 +6,47 @@ package com.creditsuisse.loanpreapprovaldmn;
 
 public class Loan implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Loan() {
-    }
+	@org.kie.api.definition.type.Label(value = "Principal")
+	private java.lang.Integer principal;
+	@org.kie.api.definition.type.Label(value = "InterestRate")
+	private java.lang.Float interestRate;
+	@org.kie.api.definition.type.Label(value = "TermInMonths")
+	private java.lang.Integer term;
 
+	public Loan() {
+	}
 
+	public java.lang.Integer getPrincipal() {
+		return this.principal;
+	}
 
+	public void setPrincipal(java.lang.Integer principal) {
+		this.principal = principal;
+	}
+
+	public java.lang.Float getInterestRate() {
+		return this.interestRate;
+	}
+
+	public void setInterestRate(java.lang.Float interestRate) {
+		this.interestRate = interestRate;
+	}
+
+	public java.lang.Integer getTerm() {
+		return this.term;
+	}
+
+	public void setTerm(java.lang.Integer term) {
+		this.term = term;
+	}
+
+	public Loan(java.lang.Integer principal, java.lang.Float interestRate,
+			java.lang.Integer term) {
+		this.principal = principal;
+		this.interestRate = interestRate;
+		this.term = term;
+	}
 
 }
