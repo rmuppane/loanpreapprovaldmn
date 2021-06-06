@@ -379,6 +379,7 @@
               <name>1|8</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">1.200001532497889412070768742870190</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -389,6 +390,7 @@
               <name>1|9</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">60000.07662489447060353843714350948</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -399,6 +401,7 @@
               <name>1|10</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">50000.07662489447060353843714350948</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -409,7 +412,7 @@
               <name>1|11</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">Likely Approved</rawValue>
+            <rawValue class="string">&quot;Likely Approved&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
