@@ -302,7 +302,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">1000</rawValue>
+            <rawValue class="string">10000</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -313,7 +313,7 @@
               <name>1|2</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">100000</rawValue>
+            <rawValue class="string">50000</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -335,7 +335,7 @@
               <name>1|4</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">2</rawValue>
+            <rawValue class="string">3</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -346,7 +346,7 @@
               <name>1|5</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">1000000</rawValue>
+            <rawValue class="string">200000</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -357,6 +357,7 @@
               <name>1|6</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">60</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
