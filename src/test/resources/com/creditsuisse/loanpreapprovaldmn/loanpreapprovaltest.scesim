@@ -368,6 +368,7 @@
               <name>1|7</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;Affordable&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -408,7 +409,7 @@
               <name>1|11</name>
               <type>EXPECT</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;Likely Approved&quot;</rawValue>
+            <rawValue class="string">Likely Approved</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
