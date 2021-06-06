@@ -8,20 +8,13 @@ public class Applicant implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	private java.lang.Integer housingExpense;
 	private java.lang.Integer monthlyIncome;
 
 	private java.lang.Integer creditScore;
 
+	private java.lang.Integer additionalExpenses;
+
 	public Applicant() {
-	}
-
-	public java.lang.Integer getHousingExpense() {
-		return this.housingExpense;
-	}
-
-	public void setHousingExpense(java.lang.Integer housingExpense) {
-		this.housingExpense = housingExpense;
 	}
 
 	public java.lang.Integer getMonthlyIncome() {
@@ -40,11 +33,19 @@ public class Applicant implements java.io.Serializable {
 		this.creditScore = creditScore;
 	}
 
-	public Applicant(java.lang.Integer housingExpense,
-			java.lang.Integer monthlyIncome, java.lang.Integer creditScore) {
-		this.housingExpense = housingExpense;
+	public java.lang.Integer getAdditionalExpenses() {
+		return this.additionalExpenses;
+	}
+
+	public void setAdditionalExpenses(java.lang.Integer additionalExpenses) {
+		this.additionalExpenses = additionalExpenses;
+	}
+
+	public Applicant(java.lang.Integer monthlyIncome,
+			java.lang.Integer creditScore, java.lang.Integer additionalExpenses) {
 		this.monthlyIncome = monthlyIncome;
 		this.creditScore = creditScore;
+		this.additionalExpenses = additionalExpenses;
 	}
 
 }
