@@ -15,7 +15,7 @@ DMN Data Types
 ==============
 ![DMN Data Types](images/dmn_datatypes.png)
 
-Process
+Test Scenarios
 =======
 ![Test Scenarios](images/test_scenarios.png)
 
